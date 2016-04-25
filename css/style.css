@@ -20,6 +20,8 @@ body, html {
 
 .region {
   height: 100%;
+  max-width: 960px;
+  margin: 50px auto;
   position: relative;
   z-index: 1;
 }
@@ -168,4 +170,9 @@ body, html {
 }
 .round .game .team-dayton {
   border-color: #C40023;
+}
+span.logo img {
+	border-radius: 30px;
+	margin-top: 2px;
+	margin-left: 5px;
 }
